@@ -122,7 +122,7 @@ def model_req(payload=None):
 
 if __name__ == "__main__":
     from _pipeline import create_payload, model_req
-    MESSAGE = "Provide a detailed explanation of how someone with some technical skills and understanding can create an process to identify overvalued and/or artificially-inflated stocks based on sentiment analysis"
+    MESSAGE = "Step 1: Generate a list of potential data sources for stock sentiment analysis (e.g., Twitter, news articles, Reddit, financial reports). Step 2: Identify the key financial metrics that influence stock overvaluation. Step 3: Based on steps 1 and 2, define the system requirements for an AI tool that integrates sentiment and fundamental analysis."
     PROMPT = MESSAGE 
     num_ctx_range = [1000, 10000, 50000, 100000]
     num_predict_range = [1000, 10000, 50000, 100000]
