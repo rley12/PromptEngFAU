@@ -43,11 +43,11 @@ Using the Prompt Engineer Lab provided at FAU, I iteratively prompted the LLM. D
 * Prompt: "Step 1: Generate a list of potential data sources for stock sentiment analysis (e.g., Twitter, news articles, Reddit, financial reports). Step 2: Identify the key financial metrics that influence stock overvaluation. Step 3: Based on steps 1 and 2, define the system requirements for an AI tool that integrates sentiment and fundamental analysis.".
 * Other model parameters were untouched from the default settings set in the repo.
 
-The run-time was logged and output was exported. The output was then fed to ChatGPT to score the results from a range of 1-10 (with 10 being the best), and the instructions being to score based on which response most adequately fufills the prompt. I manually skimmed the results too, to collaborate the score.
+The run-time was logged and output was exported. The output was then fed to ChatGPT to score the results from a range of 1-10 (with 10 being the best), and the instructions being to score based on which response most adequately fufills the prompt. The results are found in **ChatGPT Scoring.md**.I manually skimmed the results too, to collaborate the scores.
 
 
 # Results
-The output can be seen in Output.md file.
+The output can be seen in **Output.md** file.
 * Scores:
   
 | num_ctx \ num_predict | 1000 | 10000 | 50000 | 100000 |
