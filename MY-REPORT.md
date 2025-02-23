@@ -4,7 +4,7 @@
 
 To observe the impact of model request parameters on the response.
 
-* Authors: [Rodrigo Ley]
+* Authors: Rodrigo Ley
 * Academic Supervisor: [Dr. Fernando Koch](http://www.fernandokoch.me)
 
   
