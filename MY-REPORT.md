@@ -45,7 +45,9 @@ The run-time was logged and output was exported. The output was then fed to Chat
 
 
 # Results
+The output can be seen in Output.md file.
 * Scores:
+  
 | num_ctx \ num_predict | 1000  | 10000 | 50000 | 100000 |
 |----------------------|-------|-------|-------|--------|
 | 1000                | 7     | 6.5   | 9     | 8.5    |
@@ -53,7 +55,9 @@ The run-time was logged and output was exported. The output was then fed to Chat
 | 50000               | 9.5   | 8     | 9     | 8.5    |
 | 100000              | 10    | 9     | 9     | 9      |
 
+
 * Ranking:
+  
 | num_ctx \ num_predict | 1000  | 10000 | 50000 | 100000 |
 |----------------------|-------|-------|-------|--------|
 | 1000                | 10th  | 15th  | 3rd   | 7th    |
@@ -62,6 +66,7 @@ The run-time was logged and output was exported. The output was then fed to Chat
 | 100000              | 1st   | 4th   | 5th   | 5th    |
 
 * Run time
+  
 | num_ctx \ num_predict | 1000  | 10000 | 50000 | 100000 |
 |----------------------|-------|-------|-------|--------|
 | 1000                | 10s   | 7s    | 9s    | 8s     |
